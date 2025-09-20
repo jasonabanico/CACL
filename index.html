@@ -714,7 +714,8 @@
                 
                 <div class="col-lg-6">
                     <div class="contact-form">
-                        <form id="contactForm">
+                        <form id="contactForm" method="post" action="https://api.web3forms.com/submit">
+							<input type="hidden" name="access_key" value="4e1aaabc-b2cf-4f24-9f34-808b17f575e5"/>
                             <div class="mb-3">
                                 <label for="name" class="form-label">Full Name</label>
                                 <input type="text" class="form-control" id="name" required>
